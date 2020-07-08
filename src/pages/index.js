@@ -1,22 +1,98 @@
 import React from "react"
-import { Link } from "gatsby"
 
+// import { logout } from "../service/auth"
+// import {Link} from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
+
+
+
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = function ({ path }) {
+  
+return (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="galaxy" />
+    
+    <div> 
+      <main>
+        <div style={{marginTop: '5%'}}>
+          <label>Wedding</label>
+          <div className="containerVert">
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+          </div>
+        </div>
+
+        <div style={{marginTop: '5%'}}>
+          <label>Clubs and Party</label>
+          <div className="containerVert">
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+          </div>
+        </div>
+
+        <div style={{marginTop: '5%'}}>
+          <label>Funeral</label>
+          <div className="containerVert">
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+          </div>
+        </div>
+
+        <div style={{marginTop: '5%'}}>
+          <label>Education and Others</label>
+          <div className="containerVert">
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+            <div>img</div>
+          </div>
+        </div>
+      <div>
+        <p>This is our event...</p>
+        <p>We love events</p>
+        <p>This is where events LIVE</p>
+      </div>
+      <div>
+        <div>"A video element that shows one or two video elements from our events. ;;it updates at random;;"</div>
+        <div>
+          "components for reason to sue cupcake"
+          <p>Make events fast, FAST in every way possible</p>
+          <p>We have a VISION</p>
+        </div>
+        <div>PRE-footer, on where we post your videos and photos. Our privacy statement and hwo we make your event BIG </div>
+      </div>
+      </main>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
+}
 
 export default IndexPage
