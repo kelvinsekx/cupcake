@@ -54,16 +54,58 @@ body {
   padding: 10%;
   flex: 0 0 auto;
 }
+.bako{
+  display:flex;
+}
+.ab{
+  width: 50vw;
+}
+.abc{
+  width: 50vw;
+  color: #071404;
+  font-size: 2rem;
+}
+.abc>div{
+  width: 100%;
+  padding: 20%;
+}
+.containerVert1{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* overflow-x: scroll;
+  overflow-y: hidden; */
+}
+.containerVert1 div{
+  background-color: #337045;
+  content: " ";
+  width: 25rem;
+  height: 25rem;
+  margin: 0px 4px;
+  flex: 0 0 auto;
+}
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+  /* .containerVert{
+    flex-direction: column-reverse;
+  } */
   .containerVert div{
     width: 9.5rem;
     height: 7rem;
   }
   .blockOr{
     display:block;
+  }
+  .bako{
+    flex-direction: column;
+  }
+  .ab{
+    width: 99vw;
+  }
+  .abc{
+    width: 99vw;
   }
 }
