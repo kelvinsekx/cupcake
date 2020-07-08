@@ -55,8 +55,8 @@ const IndexPage = function ({ path }) {
             </div>
             <div className="abc">
               <div>
-              <p>Make events fast, FAST in every way possible</p>
-              <p>We have a VISION</p>
+              <p>We have a VISION:</p>
+              <p>That you "Make events fast, FAST in every way that matters"</p>
               </div>
             </div>
           </div>
