@@ -28,7 +28,7 @@ export const StyledP = styled.p`
     font-size: 2.15rem;
   }
   @media only screen and (max-width: 710px){ 
-    font-size: 1.17rem;
+    font-size: 1rem;
       transform: scale(1, 1.75);
   }
 `
