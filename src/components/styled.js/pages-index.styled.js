@@ -14,7 +14,7 @@ export const FirstHook = styled.div`
   width: 50vw;
   height: 25rem;
   @media only screen and (max-width: 510px) {
-    width: 100vw;
+    width: 96vw;
   }
 `
 
@@ -22,7 +22,8 @@ export const SecondHook = styled.div`
   background-color: #092955;
   width: 50vw;
   height: 25rem;
+  border: 2px solid purple;
   @media only screen and (max-width: 510px) {
-    width: 100vw;
+    width: 96vw;
   }
 `
