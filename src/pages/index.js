@@ -16,7 +16,7 @@ return (
     
     <div> 
       <main>
-        <div style={{marginLeft: "10vw"}}>
+        <div style={{marginLeft: "6vw"}}>
         <div style={{marginTop: '5%'}}>
           <label>Wedding</label>
           <div className="containerVert">
