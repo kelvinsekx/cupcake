@@ -16,6 +16,7 @@ return (
     
     <div> 
       <main>
+        <div style={{marginLeft: "25px"}}>
         <div style={{marginTop: '5%'}}>
           <label>Wedding</label>
           <div className="containerVert">
@@ -47,7 +48,7 @@ return (
         </div>
 
         <div style={{marginTop: '5%'}}>
-          <label>Funeral</label>
+          <label>Religious</label>
           <div className="containerVert">
             <div>img</div>
             <div>img</div>
@@ -75,6 +76,7 @@ return (
             <div>img</div>
           </div>
         </div>
+      </div>
       <div>
         <p>This is our event...</p>
         <p>We love events</p>
