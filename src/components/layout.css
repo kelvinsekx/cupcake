@@ -13,11 +13,6 @@ body {
   padding:0%;
   box-sizing: border-box;
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 .gatsbyLink{
   text-decoration: none;
@@ -55,7 +50,17 @@ body {
   content: " ";
   width: 10rem;
   height: 2rem;
-  margin: 10px 5px;
+  margin: 10px 4px;
   padding: 10%;
   flex: 0 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+  .containerVert div{
+    width: 9.5rem;
+    height: 5rem;
+  }
 }
