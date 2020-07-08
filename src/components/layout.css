@@ -103,11 +103,11 @@ body {
     flex-direction: column;
   }
   .ab{
-    width: 95vw;
-    border: 2px solid red;
+    width: 100vw;
+    /* border: 2px solid red; */
   }
   .abc{
-    width: 95vw;
-    border: 2px solid red;
+    width: 100vw;
+    /* //border: 2px solid red; */
   }
 }
