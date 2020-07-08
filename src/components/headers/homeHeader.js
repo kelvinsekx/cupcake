@@ -18,7 +18,8 @@ function HomeHeader() {
       </StyledHeaderNav>
 
       <StyledHeaderPDiv>
-        <StyledP>Event that has a place, we make its home.</StyledP>
+        <StyledP>
+          <span>Event that has a place,</span><span className="blockOr"> we make its home.</span></StyledP>
       </StyledHeaderPDiv>
     </div>
   )
