@@ -3,31 +3,39 @@ import React from "react"
 import Fun from "./icons/undraw_having_fun_iais.svg"
 import Part from "./icons/undraw_online_party_ar9g.svg"
 import {
+  Small,
   FirstHook,
   SecondHook,
   HookContainer,
-  HookParagraph
+  HookParagraph,
+  SVGContainer,
 } from "../components/styled.js/pages-index.styled"
 
 export default function Hook() {
   return (
     <HookContainer>
       <FirstHook>
+        <SVGContainer>
+          <Fun width="100%" height="100%"/>
+        </SVGContainer>
         <div>
-          <Fun width="400" height="400" />
-        </div>
-        <div>
-          <HookParagraph>
-            We love events.
-          </HookParagraph>
+          <div>
+            <h2 style={{color: '#0a160d'}}>You love events??</h2>
+            <Small>We love events too...</Small>
+            <Small>We like it crazier than you would.</Small>
+          </div>
         </div>
       </FirstHook>
       <SecondHook>
+        <SVGContainer>
+          <Part width="100%" height="100%" />
+        </SVGContainer>
         <div>
-          <Part width="400" height="400" />
-        </div>
         <div>
-          <HookParagraph>Lets be a PART of that memory.</HookParagraph>
+            <h2 style={{color: '#fff'}}>Invite more than you can imagine.</h2>
+            <Small style={{color: 'grey'}}>Let us be a PART of your fears</Small>
+            <Small style={{color: 'grey'}}>We want to be a PART of you beating your FEARS.</Small>
+          </div>
         </div>
       </SecondHook>
     </HookContainer>
