@@ -11,6 +11,7 @@ export const FirstHook = styled.div`
   display: flex;
   align-items: center;
   flex-direction:row-reverse;
+  margin: 2.5rem 0;
   //justify-content: center;
   @media only screen and (max-width: 870px) {
     width: 100vw;
@@ -25,6 +26,7 @@ export const SecondHook = styled.div`
   display: flex;
    align-items: center;
   // justify-content: center;
+  margin: 2.5rem 0;
   border: 2px solid purple;
   @media only screen and (max-width: 870px) {
     width: 100vw;
