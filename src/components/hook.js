@@ -16,11 +16,11 @@ export default function Hook() {
     <HookContainer>
       <FirstHook>
         <SVGContainer>
-          <Fun width="100%" height="100%"/>
+          <Fun width="100%" height="100%" />
         </SVGContainer>
         <div>
           <div>
-            <h2 style={{color: '#0a160d'}}>You love events??</h2>
+            <h2 style={{ color: "#0a160d" }}>You love events??</h2>
             <Small>We love events too...</Small>
             <Small>We like it crazier than you would.</Small>
           </div>
@@ -31,10 +31,14 @@ export default function Hook() {
           <Part width="100%" height="100%" />
         </SVGContainer>
         <div>
-        <div>
-            <h2 style={{color: '#fff'}}>Invite more than you can imagine.</h2>
-            <Small style={{color: 'grey'}}>Let us be a PART of your fears</Small>
-            <Small style={{color: 'grey'}}>We want to be a PART of you beating your FEARS.</Small>
+          <div style={{padding: '2rem'}}>
+            <h2 style={{ color: "#fff" }}>Invite more than you can imagine.</h2>
+            <Small style={{ color: "grey" }}>
+              Let us be a PART of your fears...
+            </Small>
+            <Small style={{ color: "grey" }}>
+              We want to be a PART of you beating your FEARS.
+            </Small>
           </div>
         </div>
       </SecondHook>

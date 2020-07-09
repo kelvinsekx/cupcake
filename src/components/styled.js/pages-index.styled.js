@@ -7,7 +7,7 @@ export const HookContainer = styled.div`
 export const FirstHook = styled.div`
   background-color: #fff;
   width: 100vw;
-  height: 25rem;
+  //height: 40vw;
   display: flex;
   align-items: center;
   flex-direction:row-reverse;
@@ -21,7 +21,7 @@ export const FirstHook = styled.div`
 export const SecondHook = styled.div`
   background-color: #092955;
   width: 100vw;
-  height: 25rem;
+  //height: 40vw;
   display: flex;
    align-items: center;
   // justify-content: center;
@@ -42,7 +42,12 @@ export const SVGContainer = styled.div`
  //border: 2px solid red;
  width: 68%;
  height: 97%;
+ @media only screen and (max-width: 870px) {
+  width: 100%;
+  height: 100%;
+}
 `
 export const Small = styled.small`
 display: block;
+font-size: 1.2rem;
 `
