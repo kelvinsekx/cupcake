@@ -9,6 +9,7 @@ import {
   HookContainer,
   HookParagraph,
   SVGContainer,
+  StyledH2
 } from "../components/styled.js/pages-index.styled"
 
 export default function Hook() {
@@ -20,7 +21,7 @@ export default function Hook() {
         </SVGContainer>
         <div>
           <div>
-            <h2 style={{ color: "#0a160d" }}>You love events??</h2>
+            <StyledH2>You love events??</StyledH2>
             <Small>We love events too...</Small>
             <Small>We like it crazier than you would.</Small>
           </div>
@@ -32,7 +33,7 @@ export default function Hook() {
         </SVGContainer>
         <div>
           <div style={{padding: '2rem'}}>
-            <h2 style={{ color: "#fff" }}>Invite more than you can imagine.</h2>
+            <StyledH2>Invite more than you can imagine.</StyledH2>
             <Small style={{ color: "grey" }}>
               Let us be a PART of your fears...
             </Small>
