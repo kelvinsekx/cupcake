@@ -51,5 +51,5 @@ export const SVGContainer = styled.div`
 `
 export const Small = styled.small`
 display: block;
-font-size: 1.2rem;
+font-size: 1rem;
 `
