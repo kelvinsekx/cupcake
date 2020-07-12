@@ -46,13 +46,14 @@ body {
   overflow-y: hidden; */
 }
 .containerVert div{
-  background-color: #337045;
+  background-color: #5ec97e;
   content: " ";
   width: 10rem;
   height: 2rem;
   margin: 10px 4px;
   padding: 10%;
   flex: 0 0 auto;
+  border-radius: 2em;
 }
 .bako{
   display:flex;
@@ -68,6 +69,13 @@ body {
 .abc>div{
   width: 100%;
   padding: 20%;
+}
+.arrow{
+  font-size: 4rem;
+  color: #112509;
+  padding:0;
+  /* max-height: 2rem; */
+  /* border: 2px solid red; */
 }
 .containerVert1{
   display: flex;
@@ -93,8 +101,8 @@ body {
     flex-direction: column-reverse;
   } */
   .containerVert div{
-    width: 9.5rem;
-    height: 7rem;
+    width: 10rem;
+    height: 20.5rem;
   }
   .blockOr{
     display:block;
