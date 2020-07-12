@@ -20,7 +20,7 @@ const IndexPage = function ({ path }) {
 
       <div>
         <main>
-          <div style={{ marginLeft: "4vw" }}>
+          <div style={{ marginLeft: "3vw" }}>
             {Array.map(each => (
               <div style={{ marginTop: "5%" }}>
                 <label>{each} </label><div className="arrow">&#10230;</div>
