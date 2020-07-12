@@ -17,6 +17,7 @@ export const FirstHook = styled.div`
   //justify-content: center;
   @media only screen and (max-width: 870px) {
     width: 100vw;
+    height: auto;
     flex-direction:column-reverse;
   }
 `
@@ -32,6 +33,7 @@ export const SecondHook = styled.div`
   //border: 2px solid purple;
   @media only screen and (max-width: 870px) {
     width: 100vw;
+    height: auto;
     flex-direction: column;
   }
 `;
