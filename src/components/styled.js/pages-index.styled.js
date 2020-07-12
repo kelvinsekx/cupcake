@@ -11,7 +11,7 @@ export const FirstHook = styled.div`
   height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  //justify-content: center;
   flex-direction:row-reverse;
   margin: 2.5rem auto;
   //justify-content: center;
@@ -50,7 +50,7 @@ export const SVGContainer = styled.div`
  height: 97%;
  @media only screen and (max-width: 870px) {
   width: 100%;
-  height: 100%;
+  height: 40vh;
 }
 `
 export const Small = styled.small`

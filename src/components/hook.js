@@ -19,7 +19,7 @@ export default function Hook() {
         <SVGContainer>
           <Fun width="100%" height="100%" />
         </SVGContainer>
-        <div>
+        <div style={{padding: '0 auto'}}>
           <div>
             <StyledH2>You love events??</StyledH2>
             <Small>We love events too...</Small>
