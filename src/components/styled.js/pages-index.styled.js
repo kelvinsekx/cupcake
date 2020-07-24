@@ -18,7 +18,8 @@ export const FirstHook = styled.div`
   @media only screen and (max-width: 870px) {
     width: 100vw;
     height: auto;
-    flex-direction:column-reverse;
+    flex-direction:column;
+    margin: auto;
   }
 `
 
@@ -68,4 +69,10 @@ color: rgba(26,32,44,var(--text-opacity));
 font-size: 3rem;
 font-weight: 770;
 margin: 0.7em 0;
+`
+
+export const StyledFlexLateral = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `
